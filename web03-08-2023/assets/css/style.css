@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkblue;
+    color: black;
+   
+}
+.conteudo{
+    margin-top: 20rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+   
+}
+.form-control{
+    padding: 1em;
+}
+.pw{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: azure;
+    color: black;
+    padding: 2em;
+}
+.pw-header{
+    background-color: aqua;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+.generate{
+    padding: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
